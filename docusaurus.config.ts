@@ -3,22 +3,22 @@ import type { Config } from "@docusaurus/types";
 import type * as Preset from "@docusaurus/preset-classic";
 
 const config: Config = {
-  title: "LOFI",
-  tagline: "Dinosaurs are cool",
+  title: "LOFI Whitepaper",
+  tagline: "LOFI Documentation",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
-  url: "https://your-docusaurus-site.example.com",
+  url: "https://docs.lofi.com",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "facebook", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
+  organizationName: "LOFI", // Usually your GitHub org/user name.
+  projectName: "LOFI", // Usually your repo name.
 
-  onBrokenLinks: "throw",
+  onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
 
   markdown: {
@@ -39,11 +39,9 @@ const config: Config = {
       "classic",
       {
         docs: {
+          routeBasePath: "/",
+
           sidebarPath: "./sidebars.ts",
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
         },
         theme: {
           customCss: "./src/css/custom.css",
@@ -59,7 +57,8 @@ const config: Config = {
       title: "LOFI",
       logo: {
         alt: "LOFI Logo",
-        src: "img/logo.svg",
+        src: "img/logo.jpeg",
+        href: "/",
       },
       items: [
         {
@@ -69,7 +68,7 @@ const config: Config = {
           label: "Docs",
         },
         {
-          href: "https://github.com/facebook/docusaurus",
+          href: "https://github.com/LongDefi-foundation",
           label: "GitHub",
           position: "right",
         },
@@ -83,7 +82,7 @@ const config: Config = {
           items: [
             {
               label: "Docs",
-              to: "/docs/lofi",
+              to: "/",
             },
           ],
         },
@@ -91,16 +90,12 @@ const config: Config = {
           title: "Community",
           items: [
             {
-              label: "Stack Overflow",
-              href: "https://stackoverflow.com/questions/tagged/docusaurus",
-            },
-            {
-              label: "Discord",
-              href: "https://discordapp.com/invite/docusaurus",
+              label: "Telegram",
+              href: "https://t.me/+BJHC-GbS2tMzNjU1",
             },
             {
               label: "Twitter",
-              href: "https://twitter.com/docusaurus",
+              href: "https://twitter.com/real_longdefi",
             },
           ],
         },
@@ -109,12 +104,12 @@ const config: Config = {
           items: [
             {
               label: "GitHub",
-              href: "https://github.com/facebook/docusaurus",
+              href: "https://github.com/LongDefi-foundation",
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} LOFI, Inc.`,
     },
     prism: {
       theme: prismThemes.github,

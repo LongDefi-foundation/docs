@@ -1,9 +1,10 @@
 ---
 sidebar_position: 1
 title: LOFI
+slug: /
 ---
 
-# LOFI
+# LOFI Token
 
 In the fast-changing world of DeFi and blockchain projects, the LOFI is leading a novel initiative in the field of meme crypto. As meme coins attract the interest of the crypto community, the market requires more creative solutions and practical applications. To meet this need, LOFI seeks to transform the meme coin experience by launching a useful dApp to the growing meme blockchain ecosystem.
 
